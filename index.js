@@ -38,7 +38,7 @@ const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN:CO NOEERBOT\n' // MENDING LU TOBAT SU!
             + 'ORG:Creator NOEERBOT;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6285722553839:+62 857-2255-3839\n' // JANGAN KEK BABI SU
+            + 'TEL;type=CELL;type=VOICE;waid=13132900007:+1 313-290-0007\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // ARIS187 ID
 prefix = '!'
 const speed = require('performance-now')         
@@ -49,11 +49,11 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾', // TOBAT SU ASU
-    instagram: 'https://instagram.com/_sadboy.ig', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6285722553839', // INFO SU JNGAN DI UBAH
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', // KINTIL
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs', // BABI
+    A187: '👾mdbot-wa👾', // TOBAT SU ASU
+    instagram: 'https://instagram.com', // INFO JANGAN DI UBAH
+    nomer: 'wa.me/13132900007', // INFO SU JNGAN DI UBAH
+    youtube: 'https://youtube.com', // KINTIL
+    whatsapp: 'https://chat.whatsapp.com/JShaSrtjtWXIe4BM6tU8hI', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -170,7 +170,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6285722553839@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["13132900007@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -214,7 +214,7 @@ client.on('group-participants-update', async (anu) => {
 					case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `➽𝐍𝐚𝐦𝐚 𝐛𝐨𝐭 : ${me.name}\n➽𝐍𝐨𝐦𝐞𝐫 𝐛𝐨𝐭 : @${me.jid.split('@')[0]}\n➽𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}\n➽𝐓𝐨𝐭𝐚𝐥 𝐛𝐥𝐨𝐜𝐤 : ${blocked.length}\n➽𝐀𝐤𝐭𝐢𝐟 𝐬𝐞𝐣𝐚𝐤 : ${kyun(uptime)}\n➽𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com/_sadboy.ig\n➽𝐘𝐨𝐮𝐓𝐮𝐛𝐞 : https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg\n➽𝐒𝐜𝐫𝐢𝐩𝐭 𝐛𝐲 : 𝐀𝐫𝐢𝐬𝟏𝟖𝟕 𝐈𝐃 [𝐀𝟏𝟖𝟕]\n➽𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐭𝐨:\n➽𝐀𝐥𝐥𝐚𝐡 𝐒𝐖𝐓\n➽𝐌𝐡𝐚𝐧𝐤𝐛𝐚𝐫𝐛𝐚𝐫\n➽𝐒𝐞𝐥𝐮𝐫𝐮𝐡 𝐜𝐫𝐞𝐚𝐭𝐨𝐫 𝐛𝐨𝐭 𝐲𝐚𝐧𝐠 𝐚𝐝𝐚 𝐝𝐢 𝐆𝐫𝐨𝐮𝐩 𝐁𝐎𝐓 𝐖𝐄 𝐀\n➽𝐒𝐞𝐥𝐮𝐫𝐮𝐡 𝐩𝐞𝐦𝐢𝐥𝐢𝐤 𝐰𝐞𝐛 𝐩𝐞𝐧𝐲𝐞𝐝𝐢𝐚 𝐥𝐚𝐲𝐚𝐧𝐚𝐧 𝐀𝐏𝐈`
+					teks = `➽𝐍𝐚𝐦𝐚 𝐛𝐨𝐭 : ${me.name}\n➽𝐍𝐨𝐦𝐞𝐫 𝐛𝐨𝐭 : @${me.jid.split('@')[0]}\n➽𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}\n➽𝐓𝐨𝐭𝐚𝐥 𝐛𝐥𝐨𝐜𝐤 : ${blocked.length}\n➽𝐀𝐤𝐭𝐢𝐟 𝐬𝐞𝐣𝐚𝐤 : ${kyun(uptime)}\n➽𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 : https://www.instagram.com\n➽𝐘𝐨𝐮𝐓𝐮𝐛𝐞 : https://youtube.com\n➽𝐒𝐜𝐫𝐢𝐩𝐭 𝐛𝐲 : 𝐀𝐫𝐢𝐬𝟏𝟖𝟕 𝐈𝐃 [𝐀𝟏𝟖𝟕]\n➽𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐭𝐨:\n➽𝐀𝐥𝐥𝐚𝐡 𝐒𝐖𝐓\n➽𝐌𝐡𝐚𝐧𝐤𝐛𝐚𝐫𝐛𝐚𝐫\n➽𝐒𝐞𝐥𝐮𝐫𝐮𝐡 𝐜𝐫𝐞𝐚𝐭𝐨𝐫 𝐛𝐨𝐭 𝐲𝐚𝐧𝐠 𝐚𝐝𝐚 𝐝𝐢 𝐆𝐫𝐨𝐮𝐩 𝐁𝐎𝐓 𝐖𝐄 𝐀\n➽𝐒𝐞𝐥𝐮𝐫𝐮𝐡 𝐩𝐞𝐦𝐢𝐥𝐢𝐤 𝐰𝐞𝐛 𝐩𝐞𝐧𝐲𝐞𝐝𝐢𝐚 𝐥𝐚𝐲𝐚𝐧𝐚𝐧 𝐀𝐏𝐈`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
